@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
-*
 *main - Prints alphabets in lower then upper case
 *
 *Return: Always 0 (success)
@@ -14,5 +13,5 @@ for (i = 0; i < 52; i++)
 putchar(alph[i]);
 }
 putchar('\n');
-return 0;
+return (0);
 }
