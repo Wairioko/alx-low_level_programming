@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 /**
-*main - program will assign a random number to the variable n each time it is executed
+*main - program will check value of last digit of n
 *
 *Return: Always 0 (success)
 */
