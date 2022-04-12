@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *print_sign - prints sign for numbers
-*Returns: rerurns 1 and + if n is greater than zero
+*Return: rerurns 1 and + if n is greater than zero
 *0 and prints 0 if n is zero
 *-1 and prints - if n is less than zero
 *@n: The input number as an integer.
@@ -10,7 +10,7 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-_putchar(43);   
+_putchar(43);
 return (1);
 }
 else if ((n < 0))
