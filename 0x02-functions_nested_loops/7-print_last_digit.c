@@ -2,7 +2,7 @@
 /**
 *print_last_digit - prints last
 *digit of a number
-*@i - interger value ascii
+*@i: input number as an interger 
 *Return: value of last digit
 */
 int print_last_digit(int i)
