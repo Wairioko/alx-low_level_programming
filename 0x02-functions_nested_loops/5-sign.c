@@ -22,5 +22,5 @@ else{
 return(-1);
 _putchar(45);
 }
-_putchar('\n')
+ _putchar('\n');
 }
