@@ -17,13 +17,9 @@ else if (b >= a && a >= c)
 {
 largest = b;
 }
-else if (c >= a && a>= b)
-{
-largest = c;
-}
 else
 {
-printf("none");
+largest = c;
 }
 return (largest);
 }
