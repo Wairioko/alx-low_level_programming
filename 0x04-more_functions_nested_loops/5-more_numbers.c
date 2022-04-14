@@ -4,12 +4,15 @@
 */
 void more_numbers(void)
 {
-int ch;
-int i;
-do {
-for (ch = 48; ch < 0E; ch++)
+int i, ch;
+for (i = 0; i < 10; i++)
 {
-_putchar(ch);
+for (ch = 0; ch < 15; ch++)
+{
+if (ch >= 10)
+_putchar((ch / 10) + 48);
+_putchar((ch % 10) + 48);
 }
-while (i <= 10);
+_putchar('\n');
+}
 }
