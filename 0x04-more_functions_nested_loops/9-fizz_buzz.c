@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
 *main - print multiples of 3,5 and 3&5
 *Return: 0
