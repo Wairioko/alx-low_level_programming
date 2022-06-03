@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*append_text_to_file-appends text at end of file
+*append_text_to_file - appends text at end of file
 *@filename: filename
 *@text_content: content to be added
 *Return : 1 if file exist -1 fail as it doesnt exist
