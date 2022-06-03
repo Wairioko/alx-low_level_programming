@@ -27,7 +27,7 @@ if (ptr[i] > 0)
 printf("%x", ptr[i]);
 else if (ptr[i] < 0)
 printf("%x", 256 + ptr[i]);
-} 
+}
 if (ptr[7] == 6)
 printf("00");
 }
